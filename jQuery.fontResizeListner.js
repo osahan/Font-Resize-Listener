@@ -2,7 +2,7 @@ $.fn.fontResizeListner = function(options, callback) {
 
     var $this = $(this),
         spanId = "spanFontResize",
-        fontresizeSpan = $("<span />").attr("id", spanId).css({position: "absolute", left: "-10000px"}).html('&nbsp;'),
+        fontresizeSpan = $("<span>").attr("id", spanId).css({position: "absolute", left: "-10000px"}).html('&nbsp;'),
         $span = $('#'+spanId);
 
         if(typeof $span[0] === 'undefined'){
@@ -22,7 +22,7 @@ $.fn.fontResizeListner = function(options, callback) {
         }, 200);
 
         function callthis(){
-            if (typeof callback == 'function') {
+            if (typeof callback === 'function') {
                 callback.call(this);
             }
         }
