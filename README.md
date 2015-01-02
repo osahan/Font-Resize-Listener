@@ -13,7 +13,7 @@ Lightweight jQuery extension for listening font only resize (Zoom Text Only) and
 Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.fontResizeListner.js` in the `<head>` or `<body>` (as you prefer) of your HTML document:
 ```html
 <script src="jQuery.min.js"></script>  
-<script src="jQuery.fontResizeListner.js"></script>
+<script src="jQuery.fontResizeListner.min.js"></script>
 ```
 
 ## How to Use
