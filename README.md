@@ -1,11 +1,11 @@
-Font-Resize-Listener
+Font Resize Listener
 ====================
 
 jQuery Plugin, provides a call back function as an option, whenever the browser font resized
 
 
 
-# jQuery.fontResizeListner
+## jQuery.fontResizeListner
 Lightweight jQuery extension for listening font only resize (Zoom Text Only) and binding a callback to this event. 
 
 
